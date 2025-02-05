@@ -1,0 +1,28 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - master  # 'main' yerine 'master' branch'ini kullanıyoruz
+  pull_request:
+    branches:
+      - master  # Pull request'ler için de 'master' branch'ini belirliyoruz
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # GitHub Actions'ın kullanacağı işletim sistemi (Ubuntu, Windows, vs.)
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2  # Kodu GitHub'dan çekiyor
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '22'  # Kullandığın Node.js sürümüne göre ayarla (örneğin, '14' ya da '16')
+
+    - name: Install dependencies
+      run: npm install  # Gerekli bağımlılıkları yüklüyor
+
+    - name: Run tests
+      run: npm test  # Testlerin varsa burada çalıştırılıyor
