@@ -1,0 +1,122 @@
+body {
+    background: #121212;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    width: 800px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.left-section {
+    background: linear-gradient(135deg, #1f1f1f, #292929);
+    color: white;
+    padding: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.arrow {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.right-section {
+    background: #1e1e1e;
+    padding: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-section h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    background: #444;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #03DAC5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #018786;
+}
+
+p, .forgot {
+    color: #018786;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+a{
+    color: #04b3b3;
+}
+
+.forgot {
+    text-decoration: underline;
+    color: #018786;
+}
+
+.left-section {
+    background: linear-gradient(135deg, #1f1f1f, #292929);
+    color: white;
+    padding: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left-section img {
+    width: 80px; /* Logo boyutunu burada küçülttüm */
+    height: 80px; /* Yüksekliği de aynı oranda küçültüyoruz */
+    border-radius: 50%; /* Yuvarlak yapmak istersen */
+}

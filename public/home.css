@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(135deg, #87CEEB, #FFB6C1); /* Pastel tonlar */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Button stili */
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #ff6f61, #ff9a8b); /* Yumuşak ve sıcak renk geçişi */
+    color: white;
+    border: none;
+    border-radius: 50px; /* Yuvarlak köşeler */
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff8f6a; /* Yumuşak pembe tonunda hover */
+    transform: scale(1.05);
+}

@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(135deg, #FFB6C1, #87CEEB); /* Pastel tonlar */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form stili */
+.form-login {
+    background: linear-gradient(135deg, #ffcccb, #a8c9f2); /* Açık ve yumuşak renk geçişi */
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-login h1 {
+    color: #444; /* Daha sıcak bir koyu gri */
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Inputlar */
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #f3f4f9; /* Daha açık pastel arka plan */
+    color: #333;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    background: #ffd9b3; /* Açık şeftali rengi, daha sıcak ve hoş */
+}
+
+/* Button stili */
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #ff6f61, #ff9a8b); /* Yumuşak ve sıcak renk geçişi */
+    color: white;
+    border: none;
+    border-radius: 50px; /* Yuvarlak köşeler */
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff8f6a; /* Yumuşak pembe tonunda hover */
+    transform: scale(1.05);
+}
+
+/* Sign Up Formu Arka Planı */
+.form-login:nth-child(2) {
+    background: rgba(255, 255, 255, 0.9); /* Diğer form daha açık olacak */
+}
+
+/* Placeholder Text Stilini Özelleştirme */
+input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+.post small {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #ddd;
+    font-style: italic;
+}

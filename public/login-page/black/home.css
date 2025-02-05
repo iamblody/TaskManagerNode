@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(135deg, #7d0808, #0b3366); /* Güzel bir renk geçişi */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #0b3366, #a11010); /* Hafif koyu opak arka plan */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #524d5c;
+    transform: scale(1.05);
+}
+
+/* Genel Sayfa Stili */

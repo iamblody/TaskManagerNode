@@ -1,0 +1,133 @@
+body {
+    background: #121212;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background: #1f1f1f;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links a {
+    color: #03DAC5;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar .logout {
+    color: #FF4D4D;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+h1.title {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  /* Görevler arası mesafeyi artırdık */
+    margin-top: 20px;
+}
+
+.task {
+    background: #333;
+    padding: 20px;  /* İçerik padding'ini artırdık */
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task p {
+    color: white;
+    margin: 0;
+}
+
+.delete-btn {
+    background: #FF4D4D;
+    color: white;
+    border: none;
+    padding: 10px 20px;  /* Daha geniş buton */
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.delete-btn:hover {
+    background: #FF1C1C;
+}
+
+input {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    width: 60%;  /* Genişliği artırdık */
+    font-size: 1.2rem;  /* Daha büyük yazı */
+    background: #333;
+    color: white;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    width: 40%;  /* Genişliği artırdık */
+    font-size: 1.2rem;
+    background: #03DAC5;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #018786;
+}
+
+#delete{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    width: 40%;  /* Genişliği artırdık */
+    font-size: 1.2rem;
+    background: #333;
+    color: white;
+    margin-bottom: 20px;
+}
+
+input:focus, button:focus {
+    outline: none;
+    background: #444;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+/* Buton Hover Stili */
+button:hover {
+    background: #018786;
+}

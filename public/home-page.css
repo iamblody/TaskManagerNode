@@ -1,0 +1,116 @@
+body {
+    background: #121212;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background: #1f1f1f;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links a {
+    color: #03DAC5;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar .logout {
+    color: #FF4D4D;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+h1.title {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.task {
+    background: #333;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    color: white;
+}
+.task p {
+    color: white;
+    margin: 0;
+}
+
+.delete-btn {
+    background: #FF4D4D;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.delete-btn:hover {
+    background: #FF1C1C;
+}
+
+
+/* New Task Input ve Buton Stil */
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    font-size: 1rem;
+    background: #333;
+    color: white;
+    margin-bottom: 20px;
+}
+
+input:focus, button:focus {
+    outline: none;
+    background: #444;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+/* Buton Stili */
+button {
+    background: #03DAC5;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #018786;
+}

@@ -1,0 +1,84 @@
+/* Genel Ayarlar */
+body {
+    background: #121212;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Home Container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background: #1e1e1e;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4); /* Koyu gölge */
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Logo */
+.home-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Yuvarlak logo */
+    margin-bottom: 20px;
+}
+
+/* Hoş geldiniz mesajı */
+.home-container h1 {
+    font-size: 2rem;
+    color: #03DAC5; /* Temaya uygun pastel mavi tonları */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* "Go to the home page" yazısı */
+.home-container p {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+/* Ana sayfaya git butonu */
+.home-container button {
+    background: linear-gradient(135deg, #03DAC5, #018786);
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Buton Hover Efekti */
+.home-container button:hover {
+    background: linear-gradient(135deg, #018786, #03DAC5);
+    transform: scale(1.05);
+}
+
+/* Linkler */
+a {
+    color: #03DAC5;
+    text-decoration: none;
+}
+
+/* Login Link */
+.login-link {
+    color: #03DAC5;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+}
