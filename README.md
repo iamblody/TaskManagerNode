@@ -13,7 +13,7 @@ TaskManager is a simple and efficient task management application built with Nod
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/kullanici_adin/TaskManager.git
+    git clone https://github.com/iamblody/TaskManager.git
     ```
 
 2. Install dependencies:
